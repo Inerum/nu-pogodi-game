@@ -1,0 +1,38 @@
+.cartoon-btn {
+  background-color: transparent;
+  border-color: transparent;
+  opacity: 1;
+  display: block;
+}
+
+.start-text-container {
+  margin: 20% 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 80px;
+}
+
+.start-text {
+  color: #0f1628;
+  font-size: 80px;
+  text-align: center;
+  max-width: 20ch;
+}
+
+.start-background {
+  background-color: #0f16289a;
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  left: 500px;
+  top: 250px;
+  z-index: 3;
+}
+
+.cartoon {
+  position: absolute;
+  top: 3%;
+  height: 90%;
+  z-index: 3;
+}

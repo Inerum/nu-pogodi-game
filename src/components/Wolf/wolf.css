@@ -1,0 +1,42 @@
+.wolf-left {
+  position: absolute;
+  left: 1040px;
+  top: 600px;
+  z-index: 3;
+}
+
+.wolf-right {
+  position: absolute;
+  left: 1240px;
+  top: 600px;
+  z-index: 3;
+}
+
+.arms-left-up {
+  position: absolute;
+  left: 900px;
+  top: 590px;
+  z-index: 3;
+}
+
+.arms-left-down {
+  position: absolute;
+  left: 860px;
+  top: 710px;
+  transform: rotate(-30deg);
+  z-index: 3;
+}
+.arms-right-up {
+  position: absolute;
+  left: 1460px;
+  top: 590px;
+  transform: scaleX(-1);
+  z-index: 3;
+}
+.arms-right-down {
+  position: absolute;
+  left: 1460px;
+  top: 710px;
+  transform: rotate(30deg) scaleX(-1);
+  z-index: 3;
+}

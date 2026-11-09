@@ -1,0 +1,33 @@
+.button {
+  position: absolute;
+  z-index: 5;
+  /* opacity: 0; */
+  background-color: transparent;
+  border: transparent;
+  opacity: 1;
+}
+
+.pressed {
+  opacity: 1;
+}
+
+.unpressed {
+  opacity: 1;
+}
+
+.button-up-left {
+  left: 205px;
+  top: 900px;
+}
+.button-down-left {
+  left: 205px;
+  top: 1155px;
+}
+.button-up-right {
+  left: 2165px;
+  top: 900px;
+}
+.button-down-right {
+  left: 2165px;
+  top: 1155px;
+}

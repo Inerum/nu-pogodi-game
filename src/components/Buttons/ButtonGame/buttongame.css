@@ -1,0 +1,24 @@
+.button {
+  position: absolute;
+  z-index: 5;
+  opacity: 1;
+  background-color: transparent;
+  border: transparent;
+}
+
+.pressed {
+  opacity: 1;
+}
+
+.unpressed {
+  opacity: 0;
+}
+
+.buttonA {
+  left: 2150px;
+  top: 105px;
+}
+.buttonB {
+  left: 2150px;
+  top: 275px;
+}

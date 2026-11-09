@@ -1,0 +1,28 @@
+.lose-background {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  left: 500px;
+  top: 250px;
+  z-index: 3;
+  background: #0f16289a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  padding: 300px 0px 0px 0px;
+  row-gap: 20px;
+}
+
+.lose-text {
+  color: #0f1628;
+  font-size: 80px;
+  max-width: 20ch;
+  text-align: center;
+}
+
+.zcool-qingke-huangyou-regular {
+  font-family: "ZCOOL QingKe HuangYou", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

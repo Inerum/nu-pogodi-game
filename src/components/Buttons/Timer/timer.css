@@ -1,0 +1,17 @@
+.timer {
+  position: absolute;
+  z-index: 5;
+  background-color: transparent;
+  border: transparent;
+  left: 2150px;
+  top: 445px;
+  opacity: 0;
+}
+
+.pressed {
+  opacity: 1;
+}
+
+.unpressed {
+  opacity: 0;
+}

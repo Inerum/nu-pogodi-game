@@ -1,0 +1,67 @@
+{
+  "sounds": {
+    "brokenEggs": [
+      "/audio/sfx/broken-egg/broken-egg1.mp3",
+      "/audio/sfx/broken-egg/broken-egg2.mp3",
+      "/audio/sfx/broken-egg/broken-egg3.mp3"
+    ],
+    "clicks": [
+      "/audio/sfx/click/click1.mp3",
+      "/audio/sfx/click/click2.mp3",
+      "/audio/sfx/click/click3.mp3",
+      "/audio/sfx/click/click4.mp3",
+      "/audio/sfx/click/click5.mp3"
+    ],
+    "wolf": [
+      "/audio/sfx/wolf/wolf1.mp3",
+      "/audio/sfx/wolf/wolf2.mp3",
+      "/audio/sfx/wolf/wolf3.mp3",
+      "/audio/sfx/wolf/wolf4.mp3"
+    ],
+    "music": {
+      "start": "/audio/music/start-music.mp3",
+      "gameBg": "/audio/music/game-bg-music.mp3",
+      "lose": "/audio/music/lose-music.mp3"
+    }
+  },
+  "images": {
+    "wolf": {
+      "arms": "/media/images/sprites/wolf/arms.png",
+      "wolf-right": "/media/images/sprites/wolf/wolf-right.png",
+      "wolf-left": "/media/images/sprites/wolf/wolf-left.png"
+    },
+    "egg": {
+      "egg": "/media/images/sprites/eggs/egg.png",
+      "broken-egg": "/media/images/sprites/eggs/broken-egg.png"
+    },
+    "console": {
+      "background": "/media/images/sprites/console/background.jpg",
+      "overlay": "/media/images/sprites/console/overlay.png"
+    },
+    "buttons": {
+      "button-game": "/media/images/sprites/buttons/button-game-pressed.png",
+      "button-move": "/media/images/sprites/buttons/button-move-pressed.png"
+    },
+    "light": {
+      "light-big": "/media/images/sprites/light/light-big.png",
+      "light-small": "/media/images/sprites/light/light-small.png"
+    }
+  },
+  "video": { "cartoon": "/media/video/cartoon.mp4" },
+  "lanePositions": [
+    { "x": -1, "y": -1 },
+    { "x": -1, "y": 1 },
+    { "x": 1, "y": -1 },
+    { "x": 1, "y": 1 }
+  ],
+  "gameModes": {
+    "A": {
+      "name": "игра А",
+      "timeout": 1000
+    },
+    "B": {
+      "name": "игра Б",
+      "timeout": 500
+    }
+  }
+}
